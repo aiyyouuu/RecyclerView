@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity"
+    android:padding="15dp"
+    android:background="@color/colorPrimaryDark"
+    >
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/foto1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/princess"
+        android:scaleType="centerCrop"
+        />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Princess (10)"
+        android:layout_toRightOf="@id/foto1"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10sp"
+        android:textSize="20sp"
+        />
+
+</RelativeLayout>
